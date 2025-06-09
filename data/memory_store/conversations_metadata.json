@@ -1,0 +1,472 @@
+{
+  "0": {
+    "user_id": "default_user",
+    "agent_name": "ProfileAnalyzer",
+    "query": {
+      "profile_data": {
+        "full_name": "Demo User",
+        "headline": "Software Engineer | AI Enthusiast | Tech Leader",
+        "about": "Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.",
+        "experience": [
+          {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "description": "Led development of microservices architecture, improved system performance by 40%, mentored junior developers.",
+            "duration": "2021 - Present",
+            "location": "San Francisco, CA"
+          },
+          {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "description": "Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.",
+            "duration": "2019 - 2021",
+            "location": "New York, NY"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Technology",
+            "degree": "Bachelor of Science",
+            "field": "Computer Science",
+            "duration": "2015 - 2019"
+          }
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Machine Learning",
+          "Data Analysis",
+          "Leadership"
+        ],
+        "location": "San Francisco Bay Area",
+        "connections_count": 500,
+        "profile_url": "https://linkedin.com/in/demo-user"
+      }
+    },
+    "response": {
+      "error": "Error analyzing profile: unsupported operand type(s) for +=: 'int' and 'NoneType'",
+      "success": false
+    },
+    "timestamp": "2025-06-09T01:30:46.972887",
+    "searchable_text": "Query: {'profile_data': {'full_name': 'Demo User', 'headline': 'Software Engineer | AI Enthusiast | Tech Leader', 'about': 'Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.', 'experience': [{'title': 'Senior Software Engineer', 'company': 'TechCorp Inc.', 'description': 'Led development of microservices architecture, improved system performance by 40%, mentored junior developers.', 'duration': '2021 - Present', 'location': 'San Francisco, CA'}, {'title': 'Software Engineer', 'company': 'StartupXYZ', 'description': 'Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.', 'duration': '2019 - 2021', 'location': 'New York, NY'}], 'education': [{'school': 'University of Technology', 'degree': 'Bachelor of Science', 'field': 'Computer Science', 'duration': '2015 - 2019'}], 'skills': ['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'Kubernetes', 'Machine Learning', 'Data Analysis', 'Leadership'], 'location': 'San Francisco Bay Area', 'connections_count': 500, 'profile_url': 'https://linkedin.com/in/demo-user'}} Response: {'error': \"Error analyzing profile: unsupported operand type(s) for +=: 'int' and 'NoneType'\", 'success': False}"
+  },
+  "1": {
+    "user_id": "default_user",
+    "agent_name": "JobMatcher",
+    "query": {
+      "profile_data": {
+        "full_name": "Demo User",
+        "headline": "Software Engineer | AI Enthusiast | Tech Leader",
+        "about": "Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.",
+        "experience": [
+          {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "description": "Led development of microservices architecture, improved system performance by 40%, mentored junior developers.",
+            "duration": "2021 - Present",
+            "location": "San Francisco, CA"
+          },
+          {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "description": "Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.",
+            "duration": "2019 - 2021",
+            "location": "New York, NY"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Technology",
+            "degree": "Bachelor of Science",
+            "field": "Computer Science",
+            "duration": "2015 - 2019"
+          }
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Machine Learning",
+          "Data Analysis",
+          "Leadership"
+        ],
+        "location": "San Francisco Bay Area",
+        "connections_count": 500,
+        "profile_url": "https://linkedin.com/in/demo-user"
+      },
+      "query": "According to you how can I switch to a company for a role of senior software engineer working on building reliable ai agents?"
+    },
+    "response": {
+      "target_role": "software engineer",
+      "job_description": {
+        "title": "Senior Software Engineer",
+        "requirements": [
+          "5+ years of software development experience",
+          "Proficiency in Python, JavaScript, or Java",
+          "Experience with cloud platforms (AWS, GCP, Azure)",
+          "Knowledge of microservices architecture",
+          "Strong problem-solving skills"
+        ],
+        "responsibilities": [
+          "Design and develop scalable software solutions",
+          "Collaborate with cross-functional teams",
+          "Mentor junior developers",
+          "Participate in code reviews and technical discussions",
+          "Contribute to architectural decisions"
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "AWS",
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      "match_score": 0,
+      "match_breakdown": {
+        "skills_match": 100.0,
+        "experience_match": 60,
+        "ai_analysis": 0
+      },
+      "improvement_plan": {
+        "ai_plan": "## LinkedIn Profile Improvement Plan for Senior Software Engineer Role\n\n**Current Match Score:** 0% (This needs to be investigated as the profile seems to have relevant experience.  The scoring mechanism may be flawed or require more detailed input.)\n\n**Target Role:** Senior Software Engineer\n\n**Profile Strengths:**  Experience with Python, JavaScript, AWS, Docker, Kubernetes. Experience as a Senior Software Engineer. Experience at both a large company and a startup.  \"Tech Leader\" headline suggests leadership potential.\n\n**Profile Gaps:**  Lacks explicit mention of microservices experience.  Needs more detail on leadership experience and problem-solving skills. Could benefit from quantifiable achievements.\n\n\n**1. Immediate Actions (This Week):**\n\n* **Update \"About\" Section:**  Add a concise and compelling summary of your key skills and experience, highlighting your passion for AI/ML and its application in software development. Quantify achievements wherever possible (e.g., \"Improved application performance by X%,\" \"Led a team of Y engineers\").  Mention any project where you solved a challenging technical problem.\n* **Expand on Leadership Experience:**  In the \"Experience\" section, add specific details about leadership roles and responsibilities at TechCorp Inc. and StartupXYZ.  Use action verbs (e.g., \"Led,\" \"Managed,\" \"Mentored\").  Quantify impact where possible (e.g., \"Mentored junior engineers, resulting in a X% increase in their productivity\").\n* **Add Problem-Solving Example:**  Include a brief, impactful example of a complex technical problem you solved and the positive outcome.  Focus on the process and your contribution.\n* **Review Skills Section:** Ensure all relevant skills are listed, including those mentioned in the job description.\n\n**2. Short-Term Goals (1-3 Months):**\n\n* **Acquire Microservices Experience:**  Complete an online course or work on a personal project that utilizes microservices architecture (Spring Boot, Node.js with microservices framework).  Document this experience clearly on your profile.\n* **Seek out Leadership Opportunities:**  Volunteer for leadership roles within your current company or in a community project. This could include leading a small project, mentoring junior engineers, or organizing a technical event.\n* **Build Your Network:** Connect with other software engineers and recruiters on LinkedIn, particularly those working in your target industry or company. Engage in relevant discussions and groups.\n\n\n**3. Long-Term Development (3-12 Months):**\n\n* **Deepen AI/ML Expertise:**  Explore advanced topics in AI/ML through online courses, workshops, or personal projects.  Consider pursuing a relevant certification.\n* **Contribute to Open Source:**  Contribute to open-source projects that utilize technologies relevant to your target roles, particularly those using microservices. This demonstrates practical skills and commitment to the community.\n* **Develop Thought Leadership:** Share your expertise by writing articles, blog posts, or presenting at conferences.  This establishes you as a thought leader in your field and enhances your visibility.\n\n\n**4. Specific Resources/Courses:**\n\n* **Microservices:** Udemy's \"Microservices with Spring Boot and Spring Cloud,\" Coursera's \"Microservices Specialization\"\n* **AI/ML:**  Coursera's \"Machine Learning\" by Andrew Ng, Deeplearning.ai courses, Udacity's Nanodegree programs\n* **Leadership:**  LinkedIn Learning's \"Developing Your Leadership Skills,\" books on effective leadership and communication\n\n\n**5. Profile Optimization Suggestions:**\n\n* **Keywords:**  Incorporate relevant keywords from the target job description throughout your profile (About, Experience, Skills).\n* **Headline:**  Make it concise and impactful, highlighting your key skills and aspirations.  Consider adding \"Microservices\" once you gain experience.  Example: \"Senior Software Engineer | AI/ML Enthusiast | Microservices | Tech Leader\"\n* **Summary:**  Use the summary to tell a compelling story about your career journey and aspirations.  Quantify achievements and highlight key skills.\n* **Recommendations:**  Request recommendations from former colleagues and supervisors to add credibility to your profile.\n* **Profile Picture:**  Use a professional and up-to-date profile picture.\n* **Customize URL:** Create a custom LinkedIn profile URL for a more professional look.\n\n\nBy following this plan, you can significantly improve your LinkedIn profile and increase your chances of landing your target Senior Software Engineer role. Remember to regularly update your profile with new skills and accomplishments.\n",
+        "immediate_actions": [],
+        "short_term": [],
+        "long_term": [
+          "Consider additional certifications or formal training",
+          "Gain hands-on experience through projects or volunteering"
+        ],
+        "priority_skills": [],
+        "estimated_timeline": "12+ months for major skill development"
+      },
+      "missing_skills": [],
+      "response": "Demo User, your goal of becoming a Senior Software Engineer building reliable AI agents is exciting, and definitely achievable! While the current match score is 0%, don't let that discourage you. It just means we need a strategic plan to bridge the gap.\n\nYou have a solid foundation with your experience in Python, JavaScript, AWS, Docker, and Kubernetes.  These are highly valuable for AI agent development. Your leadership experience, even if primarily mentoring, is also a plus.\n\nHere's a personalized action plan:\n\n**1. Skill Development Focus:**  Your profile doesn't explicitly mention experience building AI agents. This is the most crucial gap to address.  I recommend focusing on these areas:\n\n* **AI Agent Frameworks:**  Familiarize yourself with popular frameworks like LangChain, LlamaIndex, and Auto-GPT.  Build small projects using these frameworks to demonstrate practical experience.\n* **Reinforcement Learning (RL):**  Many reliable AI agents utilize RL.  Start with online courses or tutorials and progress to implementing simple RL algorithms.\n* **Agent Testing and Evaluation:**  Reliability is key.  Learn about different methods for testing and evaluating agent performance, including metrics like robustness, safety, and efficiency.\n\n**2. Enhance Your Profile:** Your profile is your first impression. Make it count!\n\n* **Showcase AI Projects:** Add projects demonstrating your newly acquired AI agent skills to your portfolio and GitHub.  Even small, well-documented projects can make a big difference.\n* **Highlight Problem-Solving:**  As the analysis suggested, add specific examples of how you've solved complex problems in your previous roles.  Quantify your achievements whenever possible.\n* **Expand on Leadership:** Briefly describe your leadership roles and responsibilities, emphasizing any experience leading technical projects or mentoring junior engineers.\n\n**3. Gain Practical Experience:**\n\n* **Contribute to Open Source:** Find open-source projects related to AI agents and contribute.  This is a great way to gain practical experience and learn from others.\n* **Build Your Own Projects:**  Create personal projects focused on building AI agents for specific tasks.  This demonstrates initiative and passion.\n* **Consider an Internship or Junior Role:** If transitioning directly to a senior role proves challenging, consider a junior role or internship focused on AI agent development.  This can be a stepping stone to your target position.\n\n\n**4. Networking:**\n\n* **Connect with Professionals:**  Attend AI/ML conferences and meetups, and connect with people working in AI agent development on platforms like LinkedIn.\n* **Informational Interviews:** Reach out to people in your desired roles for informational interviews.  This can provide valuable insights and potential job leads.\n\n**Timeline:**  Developing significant expertise in AI agent development might realistically take 12+ months as the analysis suggests.  However, by focusing your efforts and consistently building your skills and experience, you can accelerate this timeline.\n\nDon't be discouraged by the initial 0% match.  It's a starting point, not an endpoint.  With a focused approach and consistent effort, you can achieve your goal of becoming a Senior Software Engineer building reliable AI agents. Good luck!\n",
+      "success": true
+    },
+    "timestamp": "2025-06-09T01:32:35.698633",
+    "searchable_text": "Query: {'profile_data': {'full_name': 'Demo User', 'headline': 'Software Engineer | AI Enthusiast | Tech Leader', 'about': 'Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.', 'experience': [{'title': 'Senior Software Engineer', 'company': 'TechCorp Inc.', 'description': 'Led development of microservices architecture, improved system performance by 40%, mentored junior developers.', 'duration': '2021 - Present', 'location': 'San Francisco, CA'}, {'title': 'Software Engineer', 'company': 'StartupXYZ', 'description': 'Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.', 'duration': '2019 - 2021', 'location': 'New York, NY'}], 'education': [{'school': 'University of Technology', 'degree': 'Bachelor of Science', 'field': 'Computer Science', 'duration': '2015 - 2019'}], 'skills': ['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'Kubernetes', 'Machine Learning', 'Data Analysis', 'Leadership'], 'location': 'San Francisco Bay Area', 'connections_count': 500, 'profile_url': 'https://linkedin.com/in/demo-user'}, 'query': 'According to you how can I switch to a company for a role of senior software engineer working on building reliable ai agents?'} Response: {'target_role': 'software engineer', 'job_description': {'title': 'Senior Software Engineer', 'requirements': ['5+ years of software development experience', 'Proficiency in Python, JavaScript, or Java', 'Experience with cloud platforms (AWS, GCP, Azure)', 'Knowledge of microservices architecture', 'Strong problem-solving skills'], 'responsibilities': ['Design and develop scalable software solutions', 'Collaborate with cross-functional teams', 'Mentor junior developers', 'Participate in code reviews and technical discussions', 'Contribute to architectural decisions'], 'skills': ['Python', 'JavaScript', 'AWS', 'Docker', 'Kubernetes']}, 'match_score': 0, 'match_breakdown': {'skills_match': 100.0, 'experience_match': 60, 'ai_analysis': 0}, 'improvement_plan': {'ai_plan': '## LinkedIn Profile Improvement Plan for Senior Software Engineer Role\\n\\n**Current Match Score:** 0% (This needs to be investigated as the profile seems to have relevant experience.  The scoring mechanism may be flawed or require more detailed input.)\\n\\n**Target Role:** Senior Software Engineer\\n\\n**Profile Strengths:**  Experience with Python, JavaScript, AWS, Docker, Kubernetes. Experience as a Senior Software Engineer. Experience at both a large company and a startup.  \"Tech Leader\" headline suggests leadership potential.\\n\\n**Profile Gaps:**  Lacks explicit mention of microservices experience.  Needs more detail on leadership experience and problem-solving skills. Could benefit from quantifiable achievements.\\n\\n\\n**1. Immediate Actions (This Week):**\\n\\n* **Update \"About\" Section:**  Add a concise and compelling summary of your key skills and experience, highlighting your passion for AI/ML and its application in software development. Quantify achievements wherever possible (e.g., \"Improved application performance by X%,\" \"Led a team of Y engineers\").  Mention any project where you solved a challenging technical problem.\\n* **Expand on Leadership Experience:**  In the \"Experience\" section, add specific details about leadership roles and responsibilities at TechCorp Inc. and StartupXYZ.  Use action verbs (e.g., \"Led,\" \"Managed,\" \"Mentored\").  Quantify impact where possible (e.g., \"Mentored junior engineers, resulting in a X% increase in their productivity\").\\n* **Add Problem-Solving Example:**  Include a brief, impactful example of a complex technical problem you solved and the positive outcome.  Focus on the process and your contribution.\\n* **Review Skills Section:** Ensure all relevant skills are listed, including those mentioned in the job description.\\n\\n**2. Short-Term Goals (1-3 Months):**\\n\\n* **Acquire Microservices Experience:**  Complete an online course or work on a personal project that utilizes microservices architecture (Spring Boot, Node.js with microservices framework).  Document this experience clearly on your profile.\\n* **Seek out Leadership Opportunities:**  Volunteer for leadership roles within your current company or in a community project. This could include leading a small project, mentoring junior engineers, or organizing a technical event.\\n* **Build Your Network:** Connect with other software engineers and recruiters on LinkedIn, particularly those working in your target industry or company. Engage in relevant discussions and groups.\\n\\n\\n**3. Long-Term Development (3-12 Months):**\\n\\n* **Deepen AI/ML Expertise:**  Explore advanced topics in AI/ML through online courses, workshops, or personal projects.  Consider pursuing a relevant certification.\\n* **Contribute to Open Source:**  Contribute to open-source projects that utilize technologies relevant to your target roles, particularly those using microservices. This demonstrates practical skills and commitment to the community.\\n* **Develop Thought Leadership:** Share your expertise by writing articles, blog posts, or presenting at conferences.  This establishes you as a thought leader in your field and enhances your visibility.\\n\\n\\n**4. Specific Resources/Courses:**\\n\\n* **Microservices:** Udemy\\'s \"Microservices with Spring Boot and Spring Cloud,\" Coursera\\'s \"Microservices Specialization\"\\n* **AI/ML:**  Coursera\\'s \"Machine Learning\" by Andrew Ng, Deeplearning.ai courses, Udacity\\'s Nanodegree programs\\n* **Leadership:**  LinkedIn Learning\\'s \"Developing Your Leadership Skills,\" books on effective leadership and communication\\n\\n\\n**5. Profile Optimization Suggestions:**\\n\\n* **Keywords:**  Incorporate relevant keywords from the target job description throughout your profile (About, Experience, Skills).\\n* **Headline:**  Make it concise and impactful, highlighting your key skills and aspirations.  Consider adding \"Microservices\" once you gain experience.  Example: \"Senior Software Engineer | AI/ML Enthusiast | Microservices | Tech Leader\"\\n* **Summary:**  Use the summary to tell a compelling story about your career journey and aspirations.  Quantify achievements and highlight key skills.\\n* **Recommendations:**  Request recommendations from former colleagues and supervisors to add credibility to your profile.\\n* **Profile Picture:**  Use a professional and up-to-date profile picture.\\n* **Customize URL:** Create a custom LinkedIn profile URL for a more professional look.\\n\\n\\nBy following this plan, you can significantly improve your LinkedIn profile and increase your chances of landing your target Senior Software Engineer role. Remember to regularly update your profile with new skills and accomplishments.\\n', 'immediate_actions': [], 'short_term': [], 'long_term': ['Consider additional certifications or formal training', 'Gain hands-on experience through projects or volunteering'], 'priority_skills': [], 'estimated_timeline': '12+ months for major skill development'}, 'missing_skills': [], 'response': \"Demo User, your goal of becoming a Senior Software Engineer building reliable AI agents is exciting, and definitely achievable! While the current match score is 0%, don't let that discourage you. It just means we need a strategic plan to bridge the gap.\\n\\nYou have a solid foundation with your experience in Python, JavaScript, AWS, Docker, and Kubernetes.  These are highly valuable for AI agent development. Your leadership experience, even if primarily mentoring, is also a plus.\\n\\nHere's a personalized action plan:\\n\\n**1. Skill Development Focus:**  Your profile doesn't explicitly mention experience building AI agents. This is the most crucial gap to address.  I recommend focusing on these areas:\\n\\n* **AI Agent Frameworks:**  Familiarize yourself with popular frameworks like LangChain, LlamaIndex, and Auto-GPT.  Build small projects using these frameworks to demonstrate practical experience.\\n* **Reinforcement Learning (RL):**  Many reliable AI agents utilize RL.  Start with online courses or tutorials and progress to implementing simple RL algorithms.\\n* **Agent Testing and Evaluation:**  Reliability is key.  Learn about different methods for testing and evaluating agent performance, including metrics like robustness, safety, and efficiency.\\n\\n**2. Enhance Your Profile:** Your profile is your first impression. Make it count!\\n\\n* **Showcase AI Projects:** Add projects demonstrating your newly acquired AI agent skills to your portfolio and GitHub.  Even small, well-documented projects can make a big difference.\\n* **Highlight Problem-Solving:**  As the analysis suggested, add specific examples of how you've solved complex problems in your previous roles.  Quantify your achievements whenever possible.\\n* **Expand on Leadership:** Briefly describe your leadership roles and responsibilities, emphasizing any experience leading technical projects or mentoring junior engineers.\\n\\n**3. Gain Practical Experience:**\\n\\n* **Contribute to Open Source:** Find open-source projects related to AI agents and contribute.  This is a great way to gain practical experience and learn from others.\\n* **Build Your Own Projects:**  Create personal projects focused on building AI agents for specific tasks.  This demonstrates initiative and passion.\\n* **Consider an Internship or Junior Role:** If transitioning directly to a senior role proves challenging, consider a junior role or internship focused on AI agent development.  This can be a stepping stone to your target position.\\n\\n\\n**4. Networking:**\\n\\n* **Connect with Professionals:**  Attend AI/ML conferences and meetups, and connect with people working in AI agent development on platforms like LinkedIn.\\n* **Informational Interviews:** Reach out to people in your desired roles for informational interviews.  This can provide valuable insights and potential job leads.\\n\\n**Timeline:**  Developing significant expertise in AI agent development might realistically take 12+ months as the analysis suggests.  However, by focusing your efforts and consistently building your skills and experience, you can accelerate this timeline.\\n\\nDon't be discouraged by the initial 0% match.  It's a starting point, not an endpoint.  With a focused approach and consistent effort, you can achieve your goal of becoming a Senior Software Engineer building reliable AI agents. Good luck!\\n\", 'success': True}"
+  },
+  "2": {
+    "user_id": "default_user",
+    "agent_name": "JobMatcher",
+    "query": {
+      "profile_data": {
+        "full_name": "Demo User",
+        "headline": "Software Engineer | AI Enthusiast | Tech Leader",
+        "about": "Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.",
+        "experience": [
+          {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "description": "Led development of microservices architecture, improved system performance by 40%, mentored junior developers.",
+            "duration": "2021 - Present",
+            "location": "San Francisco, CA"
+          },
+          {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "description": "Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.",
+            "duration": "2019 - 2021",
+            "location": "New York, NY"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Technology",
+            "degree": "Bachelor of Science",
+            "field": "Computer Science",
+            "duration": "2015 - 2019"
+          }
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Machine Learning",
+          "Data Analysis",
+          "Leadership"
+        ],
+        "location": "San Francisco Bay Area",
+        "connections_count": 500,
+        "profile_url": "https://linkedin.com/in/demo-user"
+      },
+      "query": "12 months or more is too much, tell me how to prepare for a Senior role in one of the MAANG companies"
+    },
+    "response": {
+      "target_role": "software_engineer",
+      "job_description": {
+        "title": "Senior Software Engineer",
+        "requirements": [
+          "5+ years of software development experience",
+          "Proficiency in Python, JavaScript, or Java",
+          "Experience with cloud platforms (AWS, GCP, Azure)",
+          "Knowledge of microservices architecture",
+          "Strong problem-solving skills"
+        ],
+        "responsibilities": [
+          "Design and develop scalable software solutions",
+          "Collaborate with cross-functional teams",
+          "Mentor junior developers",
+          "Participate in code reviews and technical discussions",
+          "Contribute to architectural decisions"
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "AWS",
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      "match_score": 0,
+      "match_breakdown": {
+        "skills_match": 100.0,
+        "experience_match": 60,
+        "ai_analysis": 0
+      },
+      "improvement_plan": {
+        "ai_plan": "## LinkedIn Profile Improvement Plan for Senior Software Engineer Role\n\n**Current Match Score:** 0% (This likely indicates an issue with the matching algorithm and not necessarily the profile itself.  However, we can still improve the profile to maximize its effectiveness.)\n\n**Target Role:** Senior Software Engineer\n\n**Missing Skills (Inferred):**  Microservices (based on provided gaps)\n\n**Profile Strengths:**  5+ years of experience, experience at both a large company and a startup, skills in Python, JavaScript, React, Node.js, AWS, Docker, Kubernetes, Machine Learning, Data Analysis, and Leadership.\n\n**Profile Gaps:**  Lack of explicit mention of mentoring experience and architectural contributions, lack of detail in experience descriptions, and potentially missing the keyword \"microservices.\"\n\n**Improvement Plan:**\n\n**1. Immediate Actions (This Week):**\n\n* **Update Headline:**  Add \"Microservices\" if applicable. Consider a more specific headline, e.g., \"Senior Software Engineer | AI/ML Specialist | Cloud Native Solutions Architect.\"\n* **Optimize \"About\" Section:**  Quantify achievements and impact.  Instead of \"developing scalable applications,\" write something like \"Developed scalable applications that reduced server costs by 20% and improved response time by 30%.\"  Mention any architectural contributions or mentoring experience.\n* **Add Keywords to Skills Section:**  Ensure \"Microservices\" is listed if applicable. Add any other relevant keywords from the target job description.\n* **Update Experience Section:**  Add specific details and quantifiable results to each role.  Use the STAR method (Situation, Task, Action, Result) to describe accomplishments.  Highlight projects involving design, development, collaboration, and mentoring.  Mention any architectural contributions.\n\n**2. Short-Term Goals (1-3 Months):**\n\n* **Deepen Microservices Knowledge:**  Complete an online course or tutorial on microservices architecture.  Start a personal project that utilizes microservices.\n* **Seek Mentoring Opportunities:**  Volunteer to mentor junior developers within the current company or in a community setting.\n* **Contribute to Architectural Discussions:**  Actively participate in architectural discussions within the current team or in online communities.\n\n**3. Long-Term Development (3-12 Months):**\n\n* **Gain Practical Microservices Experience:**  Contribute to an open-source project using microservices or seek a project within the current company that involves this architecture.\n* **Build a Portfolio:**  Develop and showcase personal projects that demonstrate skills and experience relevant to the target role, including microservices, architectural design, and leadership.\n* **Network:**  Attend industry events and connect with other professionals in the target field.\n\n\n**4. Specific Resources/Courses:**\n\n* **Microservices:**\n    * **Udemy:**  \"Microservices Architecture - The Complete Guide\"\n    * **Coursera:**  \"Microservices Specialization\" by the University of Maryland\n    * **edX:**  \"Microservices\" by MITx\n* **Leadership/Mentoring:**\n    * **Books:** \"The Effective Executive\" by Peter Drucker, \"Radical Candor\" by Kim Scott\n    * **Online Resources:**  Harvard Business Review articles on leadership and mentoring\n\n\n**5. Profile Optimization Suggestions:**\n\n* **Use Keywords:**  Incorporate relevant keywords from the target job description throughout the profile.\n* **Quantify Achievements:**  Use numbers and metrics to demonstrate the impact of contributions.\n* **Showcase Projects:**  Include links to GitHub repositories or portfolio websites to showcase work.\n* **Request Recommendations:**  Ask colleagues, supervisors, or mentors to write recommendations highlighting relevant skills and experience.\n* **Customize Profile URL:**  Create a personalized LinkedIn URL for a professional look.\n* **Engage with Content:**  Share and comment on relevant industry articles to demonstrate expertise and stay up-to-date.\n\n\nBy following this plan, the candidate can significantly improve their LinkedIn profile and increase their chances of matching with the target Senior Software Engineer role.  Remember to continuously update and refine the profile as skills and experience evolve.\n",
+        "immediate_actions": [],
+        "short_term": [],
+        "long_term": [
+          "Consider additional certifications or formal training",
+          "Gain hands-on experience through projects or volunteering"
+        ],
+        "priority_skills": [],
+        "estimated_timeline": "12+ months for major skill development"
+      },
+      "missing_skills": [],
+      "response": "It's definitely ambitious to aim for a Senior Software Engineer role at a MAANG company in under 12 months, but not impossible!  While a typical ramp-up might take longer, focused effort can accelerate your progress. Here's a personalized plan based on your current profile:\n\n**Focus on Demonstrating Senior-Level Capabilities (Next 3-6 Months):**\n\n* **Deepen Expertise in One Area:** While you have a broad skillset, MAANG companies often look for deep expertise. Choose one area within AI/ML, or a specific technology relevant to their current openings (e.g., TensorFlow, PyTorch, specific cloud services) and become highly proficient.  Build a portfolio project that showcases this expertise.  This demonstrates not just skill, but the initiative to go deep.\n* **Leadership and Mentorship:**  Even without a formal \"Senior\" title, find opportunities to lead.  Contribute to open-source projects, mentor junior developers, or take ownership of a complex module at work.  Document these experiences clearly.\n* **System Design Practice:** Senior roles often involve system design.  Practice system design interview questions regularly. Resources like \"Grokking the System Design Interview\" and online communities can be invaluable.  Focus on designing scalable, distributed systems.\n* **Target Specific Teams/Roles:**  Don't just apply broadly.  Research specific teams within MAANG companies whose work aligns with your chosen area of expertise.  Tailor your resume and portfolio to highlight the skills they need.  Networking with people on these teams can significantly boost your chances.\n\n**Accelerated Learning and Networking (Ongoing):**\n\n* **MAANG-Specific Prep:**  LeetCode is essential for coding interviews.  Focus on algorithms and data structures relevant to the roles you're targeting.  Also, research the specific interview styles of each company.\n* **Build Your Network:** Attend meetups, conferences, and online events to connect with people working at MAANG companies.  Informational interviews can provide valuable insights and potential referrals.\n* **Showcase Your Work:**  Contribute to open-source projects, write technical blog posts, or create presentations about your work.  This demonstrates your passion and expertise to a wider audience.\n\n**Addressing the \"Gaps\":**\n\nThe analysis mentioned \"Experience Relevance\" as a potential gap, even though your experience is generally a good fit.  This likely refers to the lack of *specific* MAANG-level experience.  Addressing this takes time, but the steps above (deepening expertise, leadership, targeted applications) will directly mitigate this perceived gap.\n\n**Realistic Expectations:**\n\nWhile you can make significant progress in 6 months, landing a Senior role at MAANG within that timeframe is challenging.  Be prepared for a longer journey, and view every interview as a learning opportunity.  Even if you don't land a Senior role immediately, a strong performance can open doors to other roles that can lead to your ultimate goal.  Stay persistent, keep learning, and you'll significantly increase your chances of success.\n",
+      "success": true
+    },
+    "timestamp": "2025-06-09T01:44:07.085291",
+    "searchable_text": "Query: {'profile_data': {'full_name': 'Demo User', 'headline': 'Software Engineer | AI Enthusiast | Tech Leader', 'about': 'Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.', 'experience': [{'title': 'Senior Software Engineer', 'company': 'TechCorp Inc.', 'description': 'Led development of microservices architecture, improved system performance by 40%, mentored junior developers.', 'duration': '2021 - Present', 'location': 'San Francisco, CA'}, {'title': 'Software Engineer', 'company': 'StartupXYZ', 'description': 'Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.', 'duration': '2019 - 2021', 'location': 'New York, NY'}], 'education': [{'school': 'University of Technology', 'degree': 'Bachelor of Science', 'field': 'Computer Science', 'duration': '2015 - 2019'}], 'skills': ['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'Kubernetes', 'Machine Learning', 'Data Analysis', 'Leadership'], 'location': 'San Francisco Bay Area', 'connections_count': 500, 'profile_url': 'https://linkedin.com/in/demo-user'}, 'query': '12 months or more is too much, tell me how to prepare for a Senior role in one of the MAANG companies'} Response: {'target_role': 'software_engineer', 'job_description': {'title': 'Senior Software Engineer', 'requirements': ['5+ years of software development experience', 'Proficiency in Python, JavaScript, or Java', 'Experience with cloud platforms (AWS, GCP, Azure)', 'Knowledge of microservices architecture', 'Strong problem-solving skills'], 'responsibilities': ['Design and develop scalable software solutions', 'Collaborate with cross-functional teams', 'Mentor junior developers', 'Participate in code reviews and technical discussions', 'Contribute to architectural decisions'], 'skills': ['Python', 'JavaScript', 'AWS', 'Docker', 'Kubernetes']}, 'match_score': 0, 'match_breakdown': {'skills_match': 100.0, 'experience_match': 60, 'ai_analysis': 0}, 'improvement_plan': {'ai_plan': '## LinkedIn Profile Improvement Plan for Senior Software Engineer Role\\n\\n**Current Match Score:** 0% (This likely indicates an issue with the matching algorithm and not necessarily the profile itself.  However, we can still improve the profile to maximize its effectiveness.)\\n\\n**Target Role:** Senior Software Engineer\\n\\n**Missing Skills (Inferred):**  Microservices (based on provided gaps)\\n\\n**Profile Strengths:**  5+ years of experience, experience at both a large company and a startup, skills in Python, JavaScript, React, Node.js, AWS, Docker, Kubernetes, Machine Learning, Data Analysis, and Leadership.\\n\\n**Profile Gaps:**  Lack of explicit mention of mentoring experience and architectural contributions, lack of detail in experience descriptions, and potentially missing the keyword \"microservices.\"\\n\\n**Improvement Plan:**\\n\\n**1. Immediate Actions (This Week):**\\n\\n* **Update Headline:**  Add \"Microservices\" if applicable. Consider a more specific headline, e.g., \"Senior Software Engineer | AI/ML Specialist | Cloud Native Solutions Architect.\"\\n* **Optimize \"About\" Section:**  Quantify achievements and impact.  Instead of \"developing scalable applications,\" write something like \"Developed scalable applications that reduced server costs by 20% and improved response time by 30%.\"  Mention any architectural contributions or mentoring experience.\\n* **Add Keywords to Skills Section:**  Ensure \"Microservices\" is listed if applicable. Add any other relevant keywords from the target job description.\\n* **Update Experience Section:**  Add specific details and quantifiable results to each role.  Use the STAR method (Situation, Task, Action, Result) to describe accomplishments.  Highlight projects involving design, development, collaboration, and mentoring.  Mention any architectural contributions.\\n\\n**2. Short-Term Goals (1-3 Months):**\\n\\n* **Deepen Microservices Knowledge:**  Complete an online course or tutorial on microservices architecture.  Start a personal project that utilizes microservices.\\n* **Seek Mentoring Opportunities:**  Volunteer to mentor junior developers within the current company or in a community setting.\\n* **Contribute to Architectural Discussions:**  Actively participate in architectural discussions within the current team or in online communities.\\n\\n**3. Long-Term Development (3-12 Months):**\\n\\n* **Gain Practical Microservices Experience:**  Contribute to an open-source project using microservices or seek a project within the current company that involves this architecture.\\n* **Build a Portfolio:**  Develop and showcase personal projects that demonstrate skills and experience relevant to the target role, including microservices, architectural design, and leadership.\\n* **Network:**  Attend industry events and connect with other professionals in the target field.\\n\\n\\n**4. Specific Resources/Courses:**\\n\\n* **Microservices:**\\n    * **Udemy:**  \"Microservices Architecture - The Complete Guide\"\\n    * **Coursera:**  \"Microservices Specialization\" by the University of Maryland\\n    * **edX:**  \"Microservices\" by MITx\\n* **Leadership/Mentoring:**\\n    * **Books:** \"The Effective Executive\" by Peter Drucker, \"Radical Candor\" by Kim Scott\\n    * **Online Resources:**  Harvard Business Review articles on leadership and mentoring\\n\\n\\n**5. Profile Optimization Suggestions:**\\n\\n* **Use Keywords:**  Incorporate relevant keywords from the target job description throughout the profile.\\n* **Quantify Achievements:**  Use numbers and metrics to demonstrate the impact of contributions.\\n* **Showcase Projects:**  Include links to GitHub repositories or portfolio websites to showcase work.\\n* **Request Recommendations:**  Ask colleagues, supervisors, or mentors to write recommendations highlighting relevant skills and experience.\\n* **Customize Profile URL:**  Create a personalized LinkedIn URL for a professional look.\\n* **Engage with Content:**  Share and comment on relevant industry articles to demonstrate expertise and stay up-to-date.\\n\\n\\nBy following this plan, the candidate can significantly improve their LinkedIn profile and increase their chances of matching with the target Senior Software Engineer role.  Remember to continuously update and refine the profile as skills and experience evolve.\\n', 'immediate_actions': [], 'short_term': [], 'long_term': ['Consider additional certifications or formal training', 'Gain hands-on experience through projects or volunteering'], 'priority_skills': [], 'estimated_timeline': '12+ months for major skill development'}, 'missing_skills': [], 'response': 'It\\'s definitely ambitious to aim for a Senior Software Engineer role at a MAANG company in under 12 months, but not impossible!  While a typical ramp-up might take longer, focused effort can accelerate your progress. Here\\'s a personalized plan based on your current profile:\\n\\n**Focus on Demonstrating Senior-Level Capabilities (Next 3-6 Months):**\\n\\n* **Deepen Expertise in One Area:** While you have a broad skillset, MAANG companies often look for deep expertise. Choose one area within AI/ML, or a specific technology relevant to their current openings (e.g., TensorFlow, PyTorch, specific cloud services) and become highly proficient.  Build a portfolio project that showcases this expertise.  This demonstrates not just skill, but the initiative to go deep.\\n* **Leadership and Mentorship:**  Even without a formal \"Senior\" title, find opportunities to lead.  Contribute to open-source projects, mentor junior developers, or take ownership of a complex module at work.  Document these experiences clearly.\\n* **System Design Practice:** Senior roles often involve system design.  Practice system design interview questions regularly. Resources like \"Grokking the System Design Interview\" and online communities can be invaluable.  Focus on designing scalable, distributed systems.\\n* **Target Specific Teams/Roles:**  Don\\'t just apply broadly.  Research specific teams within MAANG companies whose work aligns with your chosen area of expertise.  Tailor your resume and portfolio to highlight the skills they need.  Networking with people on these teams can significantly boost your chances.\\n\\n**Accelerated Learning and Networking (Ongoing):**\\n\\n* **MAANG-Specific Prep:**  LeetCode is essential for coding interviews.  Focus on algorithms and data structures relevant to the roles you\\'re targeting.  Also, research the specific interview styles of each company.\\n* **Build Your Network:** Attend meetups, conferences, and online events to connect with people working at MAANG companies.  Informational interviews can provide valuable insights and potential referrals.\\n* **Showcase Your Work:**  Contribute to open-source projects, write technical blog posts, or create presentations about your work.  This demonstrates your passion and expertise to a wider audience.\\n\\n**Addressing the \"Gaps\":**\\n\\nThe analysis mentioned \"Experience Relevance\" as a potential gap, even though your experience is generally a good fit.  This likely refers to the lack of *specific* MAANG-level experience.  Addressing this takes time, but the steps above (deepening expertise, leadership, targeted applications) will directly mitigate this perceived gap.\\n\\n**Realistic Expectations:**\\n\\nWhile you can make significant progress in 6 months, landing a Senior role at MAANG within that timeframe is challenging.  Be prepared for a longer journey, and view every interview as a learning opportunity.  Even if you don\\'t land a Senior role immediately, a strong performance can open doors to other roles that can lead to your ultimate goal.  Stay persistent, keep learning, and you\\'ll significantly increase your chances of success.\\n', 'success': True}"
+  },
+  "3": {
+    "user_id": "default_user",
+    "agent_name": "JobMatcher",
+    "query": {
+      "profile_data": {
+        "full_name": "Demo User",
+        "headline": "Software Engineer | AI Enthusiast | Tech Leader",
+        "about": "Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.",
+        "experience": [
+          {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "description": "Led development of microservices architecture, improved system performance by 40%, mentored junior developers.",
+            "duration": "2021 - Present",
+            "location": "San Francisco, CA"
+          },
+          {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "description": "Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.",
+            "duration": "2019 - 2021",
+            "location": "New York, NY"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Technology",
+            "degree": "Bachelor of Science",
+            "field": "Computer Science",
+            "duration": "2015 - 2019"
+          }
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Machine Learning",
+          "Data Analysis",
+          "Leadership"
+        ],
+        "location": "San Francisco Bay Area",
+        "connections_count": 500,
+        "profile_url": "https://linkedin.com/in/demo-user"
+      },
+      "query": "12 months or more is too much, tell me how to prepare for a Senior role in one of the MAANG companies"
+    },
+    "response": {
+      "target_role": "software_engineer",
+      "job_description": {
+        "title": "Senior Software Engineer",
+        "requirements": [
+          "5+ years of software development experience",
+          "Proficiency in Python, JavaScript, or Java",
+          "Experience with cloud platforms (AWS, GCP, Azure)",
+          "Knowledge of microservices architecture",
+          "Strong problem-solving skills"
+        ],
+        "responsibilities": [
+          "Design and develop scalable software solutions",
+          "Collaborate with cross-functional teams",
+          "Mentor junior developers",
+          "Participate in code reviews and technical discussions",
+          "Contribute to architectural decisions"
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "AWS",
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      "match_score": 0,
+      "match_breakdown": {
+        "skills_match": 100.0,
+        "experience_match": 60,
+        "ai_analysis": 0
+      },
+      "improvement_plan": {
+        "ai_plan": "## LinkedIn Profile Improvement Plan for Demo User\n\n**Current Match Score:** 0% (This likely indicates an issue with the matching algorithm itself, given the profile's apparent relevance.  We'll proceed with optimization assuming the score is inaccurate.)\n\n**Target Role:** Senior Software Engineer\n\n**Missing Skills:** Java (Optional, but beneficial)\n\n**Profile Strengths:**  Experience as a Senior Software Engineer and Software Engineer, 5+ years of experience, skills in Python, JavaScript, React, Node.js, AWS, Docker, Kubernetes, Machine Learning, Data Analysis, and Leadership.\n\n**Profile Gaps:**  Lack of explicit mention of Microservices experience, potential lack of Java skills.\n\n**Experience Relevance:** Highly Relevant\n\n**Timeline for Skill Development:** See below.\n\n**Specific Improvement Recommendations:** See below.\n\n\n**1. Immediate Actions (This Week):**\n\n* **Update \"About\" Section:**  Rewrite the \"About\" section to be more impactful and results-oriented.  Quantify achievements whenever possible. For example, instead of \"Experienced software engineer with 5+ years in developing scalable applications,\" try something like: \"Results-driven software engineer with 5+ years of experience designing, developing, and deploying highly scalable applications that have improved [mention specific metric, e.g., user engagement by 20%] at [previous company]. Passionate about leveraging AI/ML to build innovative solutions and lead high-performing teams.\"\n* **Highlight Microservices in Experience:** Review previous roles at TechCorp Inc. and StartupXYZ.  Identify any projects where you worked on independent services within a larger application, even if the term \"microservices\" wasn't explicitly used.  Update your experience descriptions to reflect these contributions using relevant keywords like \"microservices architecture,\" \"service-oriented architecture,\" \"API design,\" \"distributed systems,\" \"containerization,\" etc.\n* **Add Projects:** If you have personal projects showcasing microservices or other relevant skills, add them to your profile.  Include clear descriptions, technologies used, and quantifiable results.\n\n**2. Short-Term Goals (1-3 Months):**\n\n* **Deepen Microservices Knowledge:**  Focus on practical application.  Build a small personal project using a microservices architecture.  This will solidify your understanding and provide concrete examples for your profile.\n* **Begin Java Exploration (Optional):** If you decide to pursue Java, start with a beginner-friendly online course (see resources below).  Aim for a basic understanding of syntax, core concepts, and common libraries.\n* **Request Recommendations:** Reach out to former colleagues or supervisors and request LinkedIn recommendations that highlight your relevant skills and experience, especially in areas like leadership, problem-solving, and technical expertise.\n\n**3. Long-Term Development (3-12 Months):**\n\n* **Master Microservices:**  Continue building more complex microservices projects. Explore advanced concepts like service discovery, distributed tracing, and circuit breakers.\n* **Achieve Java Proficiency (Optional):**  Progress to intermediate and advanced Java concepts.  Contribute to open-source Java projects or build more substantial applications to demonstrate your skills.  Consider obtaining a Java certification.\n* **Network Strategically:**  Engage with industry professionals and thought leaders in your target field. Attend relevant online events, join LinkedIn groups, and participate in discussions.\n\n**4. Specific Resources or Courses to Consider:**\n\n* **Microservices:**\n    * **Udemy:**  \"Microservices Architecture\" by Packt Publishing\n    * **Coursera:** \"Microservices\" by the University of Maryland\n    * **Spring Boot:**  Official Spring documentation and tutorials\n* **Java:**\n    * **Codecademy:** \"Learn Java\"\n    * **Udemy:** \"Complete Java Masterclass\" by Tim Buchalka\n    * **Oracle Java Certifications:**  Java SE 8 Programmer I, Java SE 11 Programmer I\n\n\n**5. Profile Optimization Suggestions:**\n\n* **Keywords:**  Ensure your profile is rich with relevant keywords related to Senior Software Engineering roles, including specific technologies and skills mentioned in target job descriptions.\n* **Headline:**  Make your headline concise and impactful. Consider including keywords like \"Senior Software Engineer,\" \"Microservices Architect,\" or \"AI/ML Specialist.\"\n* **Skills Section:**  Add and endorse relevant skills.  Prioritize skills mentioned in target job descriptions.\n* **Custom URL:** Create a custom LinkedIn URL for a more professional appearance.\n* **Profile Picture:** Use a professional and recent headshot.\n\n\n\nBy following this plan, Demo User can significantly improve their LinkedIn profile, showcase their skills and experience effectively, and increase their chances of matching with and landing their target Senior Software Engineer roles.  Remember to continuously update and refine your profile as you gain new skills and experience.\n",
+        "immediate_actions": [],
+        "short_term": [],
+        "long_term": [
+          "Consider additional certifications or formal training",
+          "Gain hands-on experience through projects or volunteering"
+        ],
+        "priority_skills": [],
+        "estimated_timeline": "12+ months for major skill development"
+      },
+      "missing_skills": [],
+      "response": "It's great that you're aiming for a Senior Software Engineer role at a MAANG company! While 12 months is a good timeframe for significant skill development, it's definitely possible to accelerate your prep and become a competitive candidate sooner.  Here's a plan focused on rapid improvement:\n\n**Focus on the Fundamentals (0-3 Months):**\n\n* **System Design:** This is crucial for senior roles.  Dive deep into system design principles, common patterns, and best practices.  Resources like \"Designing Data-Intensive Applications\" and online courses on platforms like Educative.io are excellent. Practice designing systems relevant to MAANG companies (e.g., distributed systems, high-traffic web applications).  Consider joining a system design study group for collaborative learning and feedback.\n* **Coding Proficiency:**  Brush up on your core data structures and algorithms.  LeetCode and HackerRank are your friends. Focus on problems commonly asked in MAANG interviews.  Aim for speed and accuracy, but prioritize understanding the underlying concepts.\n* **Behavioral Interviewing:**  Prepare stories that demonstrate leadership, teamwork, problem-solving, and communication skills using the STAR method (Situation, Task, Action, Result).  Practice these with friends or mentors for feedback.\n\n**Targeted Skill Enhancement (3-6 Months):**\n\n* **Deepen your AI/ML Expertise (if applicable):** Since you're passionate about AI/ML, showcasing projects in this area can be a strong differentiator.  Build a portfolio of projects that demonstrate your practical skills.  Contribute to open-source projects or participate in Kaggle competitions.\n* **Cloud Computing (AWS):**  Strengthen your AWS skills by working on personal projects that leverage different AWS services.  Consider pursuing AWS certifications relevant to your target role.\n* **Leadership & Communication:**  Actively seek opportunities to lead projects or mentor junior engineers at your current job.  This will demonstrate your leadership potential.  Practice clearly articulating technical concepts to both technical and non-technical audiences.\n\n**Gaining an Edge (6-9+ Months):**\n\n* **Networking:**  Attend industry events, connect with people on LinkedIn, and reach out to engineers at MAANG companies for informational interviews.  Networking can open doors to opportunities and provide valuable insights into the interview process.\n* **Targeted Project Portfolio:** Develop projects that directly address real-world problems or showcase innovative solutions.  Tailor these projects to align with the technologies and domains relevant to the specific MAANG company you're targeting.\n* **Mock Interviews:**  Practice mock interviews with experienced engineers, ideally those who have worked at MAANG companies.  This will help you refine your interviewing skills and identify areas for improvement.\n\n**Key Takeaways for Faster Progress:**\n\n* **Prioritize:** Focus on the skills most relevant to the roles you're targeting.\n* **Consistency:** Dedicate consistent time each week to your preparation. Even short, focused sessions are more effective than sporadic bursts of effort.\n* **Seek Feedback:**  Regularly seek feedback on your progress and identify areas for improvement.\n* **Stay Positive:** The journey to a senior role at a MAANG company can be challenging, but stay positive and persistent.  Celebrate your progress along the way.\n\nRemember, this is a general guideline.  Tailor it to your specific strengths and weaknesses and the requirements of your target roles. You've got a solid foundation, so with focused effort and the right strategy, you can significantly accelerate your progress and achieve your goal!\n",
+      "success": true
+    },
+    "timestamp": "2025-06-09T01:45:13.698146",
+    "searchable_text": "Query: {'profile_data': {'full_name': 'Demo User', 'headline': 'Software Engineer | AI Enthusiast | Tech Leader', 'about': 'Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.', 'experience': [{'title': 'Senior Software Engineer', 'company': 'TechCorp Inc.', 'description': 'Led development of microservices architecture, improved system performance by 40%, mentored junior developers.', 'duration': '2021 - Present', 'location': 'San Francisco, CA'}, {'title': 'Software Engineer', 'company': 'StartupXYZ', 'description': 'Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.', 'duration': '2019 - 2021', 'location': 'New York, NY'}], 'education': [{'school': 'University of Technology', 'degree': 'Bachelor of Science', 'field': 'Computer Science', 'duration': '2015 - 2019'}], 'skills': ['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'Kubernetes', 'Machine Learning', 'Data Analysis', 'Leadership'], 'location': 'San Francisco Bay Area', 'connections_count': 500, 'profile_url': 'https://linkedin.com/in/demo-user'}, 'query': '12 months or more is too much, tell me how to prepare for a Senior role in one of the MAANG companies'} Response: {'target_role': 'software_engineer', 'job_description': {'title': 'Senior Software Engineer', 'requirements': ['5+ years of software development experience', 'Proficiency in Python, JavaScript, or Java', 'Experience with cloud platforms (AWS, GCP, Azure)', 'Knowledge of microservices architecture', 'Strong problem-solving skills'], 'responsibilities': ['Design and develop scalable software solutions', 'Collaborate with cross-functional teams', 'Mentor junior developers', 'Participate in code reviews and technical discussions', 'Contribute to architectural decisions'], 'skills': ['Python', 'JavaScript', 'AWS', 'Docker', 'Kubernetes']}, 'match_score': 0, 'match_breakdown': {'skills_match': 100.0, 'experience_match': 60, 'ai_analysis': 0}, 'improvement_plan': {'ai_plan': '## LinkedIn Profile Improvement Plan for Demo User\\n\\n**Current Match Score:** 0% (This likely indicates an issue with the matching algorithm itself, given the profile\\'s apparent relevance.  We\\'ll proceed with optimization assuming the score is inaccurate.)\\n\\n**Target Role:** Senior Software Engineer\\n\\n**Missing Skills:** Java (Optional, but beneficial)\\n\\n**Profile Strengths:**  Experience as a Senior Software Engineer and Software Engineer, 5+ years of experience, skills in Python, JavaScript, React, Node.js, AWS, Docker, Kubernetes, Machine Learning, Data Analysis, and Leadership.\\n\\n**Profile Gaps:**  Lack of explicit mention of Microservices experience, potential lack of Java skills.\\n\\n**Experience Relevance:** Highly Relevant\\n\\n**Timeline for Skill Development:** See below.\\n\\n**Specific Improvement Recommendations:** See below.\\n\\n\\n**1. Immediate Actions (This Week):**\\n\\n* **Update \"About\" Section:**  Rewrite the \"About\" section to be more impactful and results-oriented.  Quantify achievements whenever possible. For example, instead of \"Experienced software engineer with 5+ years in developing scalable applications,\" try something like: \"Results-driven software engineer with 5+ years of experience designing, developing, and deploying highly scalable applications that have improved [mention specific metric, e.g., user engagement by 20%] at [previous company]. Passionate about leveraging AI/ML to build innovative solutions and lead high-performing teams.\"\\n* **Highlight Microservices in Experience:** Review previous roles at TechCorp Inc. and StartupXYZ.  Identify any projects where you worked on independent services within a larger application, even if the term \"microservices\" wasn\\'t explicitly used.  Update your experience descriptions to reflect these contributions using relevant keywords like \"microservices architecture,\" \"service-oriented architecture,\" \"API design,\" \"distributed systems,\" \"containerization,\" etc.\\n* **Add Projects:** If you have personal projects showcasing microservices or other relevant skills, add them to your profile.  Include clear descriptions, technologies used, and quantifiable results.\\n\\n**2. Short-Term Goals (1-3 Months):**\\n\\n* **Deepen Microservices Knowledge:**  Focus on practical application.  Build a small personal project using a microservices architecture.  This will solidify your understanding and provide concrete examples for your profile.\\n* **Begin Java Exploration (Optional):** If you decide to pursue Java, start with a beginner-friendly online course (see resources below).  Aim for a basic understanding of syntax, core concepts, and common libraries.\\n* **Request Recommendations:** Reach out to former colleagues or supervisors and request LinkedIn recommendations that highlight your relevant skills and experience, especially in areas like leadership, problem-solving, and technical expertise.\\n\\n**3. Long-Term Development (3-12 Months):**\\n\\n* **Master Microservices:**  Continue building more complex microservices projects. Explore advanced concepts like service discovery, distributed tracing, and circuit breakers.\\n* **Achieve Java Proficiency (Optional):**  Progress to intermediate and advanced Java concepts.  Contribute to open-source Java projects or build more substantial applications to demonstrate your skills.  Consider obtaining a Java certification.\\n* **Network Strategically:**  Engage with industry professionals and thought leaders in your target field. Attend relevant online events, join LinkedIn groups, and participate in discussions.\\n\\n**4. Specific Resources or Courses to Consider:**\\n\\n* **Microservices:**\\n    * **Udemy:**  \"Microservices Architecture\" by Packt Publishing\\n    * **Coursera:** \"Microservices\" by the University of Maryland\\n    * **Spring Boot:**  Official Spring documentation and tutorials\\n* **Java:**\\n    * **Codecademy:** \"Learn Java\"\\n    * **Udemy:** \"Complete Java Masterclass\" by Tim Buchalka\\n    * **Oracle Java Certifications:**  Java SE 8 Programmer I, Java SE 11 Programmer I\\n\\n\\n**5. Profile Optimization Suggestions:**\\n\\n* **Keywords:**  Ensure your profile is rich with relevant keywords related to Senior Software Engineering roles, including specific technologies and skills mentioned in target job descriptions.\\n* **Headline:**  Make your headline concise and impactful. Consider including keywords like \"Senior Software Engineer,\" \"Microservices Architect,\" or \"AI/ML Specialist.\"\\n* **Skills Section:**  Add and endorse relevant skills.  Prioritize skills mentioned in target job descriptions.\\n* **Custom URL:** Create a custom LinkedIn URL for a more professional appearance.\\n* **Profile Picture:** Use a professional and recent headshot.\\n\\n\\n\\nBy following this plan, Demo User can significantly improve their LinkedIn profile, showcase their skills and experience effectively, and increase their chances of matching with and landing their target Senior Software Engineer roles.  Remember to continuously update and refine your profile as you gain new skills and experience.\\n', 'immediate_actions': [], 'short_term': [], 'long_term': ['Consider additional certifications or formal training', 'Gain hands-on experience through projects or volunteering'], 'priority_skills': [], 'estimated_timeline': '12+ months for major skill development'}, 'missing_skills': [], 'response': 'It\\'s great that you\\'re aiming for a Senior Software Engineer role at a MAANG company! While 12 months is a good timeframe for significant skill development, it\\'s definitely possible to accelerate your prep and become a competitive candidate sooner.  Here\\'s a plan focused on rapid improvement:\\n\\n**Focus on the Fundamentals (0-3 Months):**\\n\\n* **System Design:** This is crucial for senior roles.  Dive deep into system design principles, common patterns, and best practices.  Resources like \"Designing Data-Intensive Applications\" and online courses on platforms like Educative.io are excellent. Practice designing systems relevant to MAANG companies (e.g., distributed systems, high-traffic web applications).  Consider joining a system design study group for collaborative learning and feedback.\\n* **Coding Proficiency:**  Brush up on your core data structures and algorithms.  LeetCode and HackerRank are your friends. Focus on problems commonly asked in MAANG interviews.  Aim for speed and accuracy, but prioritize understanding the underlying concepts.\\n* **Behavioral Interviewing:**  Prepare stories that demonstrate leadership, teamwork, problem-solving, and communication skills using the STAR method (Situation, Task, Action, Result).  Practice these with friends or mentors for feedback.\\n\\n**Targeted Skill Enhancement (3-6 Months):**\\n\\n* **Deepen your AI/ML Expertise (if applicable):** Since you\\'re passionate about AI/ML, showcasing projects in this area can be a strong differentiator.  Build a portfolio of projects that demonstrate your practical skills.  Contribute to open-source projects or participate in Kaggle competitions.\\n* **Cloud Computing (AWS):**  Strengthen your AWS skills by working on personal projects that leverage different AWS services.  Consider pursuing AWS certifications relevant to your target role.\\n* **Leadership & Communication:**  Actively seek opportunities to lead projects or mentor junior engineers at your current job.  This will demonstrate your leadership potential.  Practice clearly articulating technical concepts to both technical and non-technical audiences.\\n\\n**Gaining an Edge (6-9+ Months):**\\n\\n* **Networking:**  Attend industry events, connect with people on LinkedIn, and reach out to engineers at MAANG companies for informational interviews.  Networking can open doors to opportunities and provide valuable insights into the interview process.\\n* **Targeted Project Portfolio:** Develop projects that directly address real-world problems or showcase innovative solutions.  Tailor these projects to align with the technologies and domains relevant to the specific MAANG company you\\'re targeting.\\n* **Mock Interviews:**  Practice mock interviews with experienced engineers, ideally those who have worked at MAANG companies.  This will help you refine your interviewing skills and identify areas for improvement.\\n\\n**Key Takeaways for Faster Progress:**\\n\\n* **Prioritize:** Focus on the skills most relevant to the roles you\\'re targeting.\\n* **Consistency:** Dedicate consistent time each week to your preparation. Even short, focused sessions are more effective than sporadic bursts of effort.\\n* **Seek Feedback:**  Regularly seek feedback on your progress and identify areas for improvement.\\n* **Stay Positive:** The journey to a senior role at a MAANG company can be challenging, but stay positive and persistent.  Celebrate your progress along the way.\\n\\nRemember, this is a general guideline.  Tailor it to your specific strengths and weaknesses and the requirements of your target roles. You\\'ve got a solid foundation, so with focused effort and the right strategy, you can significantly accelerate your progress and achieve your goal!\\n', 'success': True}"
+  },
+  "4": {
+    "user_id": "default_user",
+    "agent_name": "ProfileAnalyzer",
+    "query": {
+      "profile_data": {
+        "full_name": "Demo User",
+        "headline": "Software Engineer | AI Enthusiast | Tech Leader",
+        "about": "Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.",
+        "experience": [
+          {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "description": "Led development of microservices architecture, improved system performance by 40%, mentored junior developers.",
+            "duration": "2021 - Present",
+            "location": "San Francisco, CA"
+          },
+          {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "description": "Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.",
+            "duration": "2019 - 2021",
+            "location": "New York, NY"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Technology",
+            "degree": "Bachelor of Science",
+            "field": "Computer Science",
+            "duration": "2015 - 2019"
+          }
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Machine Learning",
+          "Data Analysis",
+          "Leadership"
+        ],
+        "location": "San Francisco Bay Area",
+        "connections_count": 500,
+        "profile_url": "https://linkedin.com/in/demo-user"
+      },
+      "query": "Okay, can you give me some content to add to my Linkedin profile which will help me catch recruiter's attention and present me as a possible guy for hire?"
+    },
+    "response": {
+      "error": "Error analyzing profile: unsupported operand type(s) for +=: 'int' and 'NoneType'",
+      "success": false
+    },
+    "timestamp": "2025-06-09T01:51:39.445789",
+    "searchable_text": "Query: {'profile_data': {'full_name': 'Demo User', 'headline': 'Software Engineer | AI Enthusiast | Tech Leader', 'about': 'Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.', 'experience': [{'title': 'Senior Software Engineer', 'company': 'TechCorp Inc.', 'description': 'Led development of microservices architecture, improved system performance by 40%, mentored junior developers.', 'duration': '2021 - Present', 'location': 'San Francisco, CA'}, {'title': 'Software Engineer', 'company': 'StartupXYZ', 'description': 'Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.', 'duration': '2019 - 2021', 'location': 'New York, NY'}], 'education': [{'school': 'University of Technology', 'degree': 'Bachelor of Science', 'field': 'Computer Science', 'duration': '2015 - 2019'}], 'skills': ['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'Kubernetes', 'Machine Learning', 'Data Analysis', 'Leadership'], 'location': 'San Francisco Bay Area', 'connections_count': 500, 'profile_url': 'https://linkedin.com/in/demo-user'}, 'query': \"Okay, can you give me some content to add to my Linkedin profile which will help me catch recruiter's attention and present me as a possible guy for hire?\"} Response: {'error': \"Error analyzing profile: unsupported operand type(s) for +=: 'int' and 'NoneType'\", 'success': False}"
+  },
+  "5": {
+    "user_id": "default_user",
+    "agent_name": "ProfileAnalyzer",
+    "query": {
+      "profile_data": {
+        "full_name": "Demo User",
+        "headline": "Software Engineer | AI Enthusiast | Tech Leader",
+        "about": "Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.",
+        "experience": [
+          {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "description": "Led development of microservices architecture, improved system performance by 40%, mentored junior developers.",
+            "duration": "2021 - Present",
+            "location": "San Francisco, CA"
+          },
+          {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "description": "Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.",
+            "duration": "2019 - 2021",
+            "location": "New York, NY"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Technology",
+            "degree": "Bachelor of Science",
+            "field": "Computer Science",
+            "duration": "2015 - 2019"
+          }
+        ],
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Machine Learning",
+          "Data Analysis",
+          "Leadership"
+        ],
+        "location": "San Francisco Bay Area",
+        "connections_count": 500,
+        "profile_url": "https://linkedin.com/in/demo-user"
+      },
+      "query": "Okay, can you give me some content to add to my Linkedin profile which will help me catch recruiter's attention and present me as a possible guy for hire?"
+    },
+    "response": {
+      "error": "Error analyzing profile: unsupported operand type(s) for +=: 'int' and 'NoneType'",
+      "success": false
+    },
+    "timestamp": "2025-06-09T01:52:48.206764",
+    "searchable_text": "Query: {'profile_data': {'full_name': 'Demo User', 'headline': 'Software Engineer | AI Enthusiast | Tech Leader', 'about': 'Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.', 'experience': [{'title': 'Senior Software Engineer', 'company': 'TechCorp Inc.', 'description': 'Led development of microservices architecture, improved system performance by 40%, mentored junior developers.', 'duration': '2021 - Present', 'location': 'San Francisco, CA'}, {'title': 'Software Engineer', 'company': 'StartupXYZ', 'description': 'Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.', 'duration': '2019 - 2021', 'location': 'New York, NY'}], 'education': [{'school': 'University of Technology', 'degree': 'Bachelor of Science', 'field': 'Computer Science', 'duration': '2015 - 2019'}], 'skills': ['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'Kubernetes', 'Machine Learning', 'Data Analysis', 'Leadership'], 'location': 'San Francisco Bay Area', 'connections_count': 500, 'profile_url': 'https://linkedin.com/in/demo-user'}, 'query': \"Okay, can you give me some content to add to my Linkedin profile which will help me catch recruiter's attention and present me as a possible guy for hire?\"} Response: {'error': \"Error analyzing profile: unsupported operand type(s) for +=: 'int' and 'NoneType'\", 'success': False}"
+  }
+}

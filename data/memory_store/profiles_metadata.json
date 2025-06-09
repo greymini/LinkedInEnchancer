@@ -1,0 +1,51 @@
+{
+  "0": {
+    "user_id": "default_user",
+    "profile_data": {
+      "full_name": "Demo User",
+      "headline": "Software Engineer | AI Enthusiast | Tech Leader",
+      "about": "Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference.",
+      "experience": [
+        {
+          "title": "Senior Software Engineer",
+          "company": "TechCorp Inc.",
+          "description": "Led development of microservices architecture, improved system performance by 40%, mentored junior developers.",
+          "duration": "2021 - Present",
+          "location": "San Francisco, CA"
+        },
+        {
+          "title": "Software Engineer",
+          "company": "StartupXYZ",
+          "description": "Developed full-stack web applications using React and Node.js, collaborated with cross-functional teams.",
+          "duration": "2019 - 2021",
+          "location": "New York, NY"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Technology",
+          "degree": "Bachelor of Science",
+          "field": "Computer Science",
+          "duration": "2015 - 2019"
+        }
+      ],
+      "skills": [
+        "Python",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Machine Learning",
+        "Data Analysis",
+        "Leadership"
+      ],
+      "location": "San Francisco Bay Area",
+      "connections_count": 500,
+      "profile_url": "https://linkedin.com/in/demo-user"
+    },
+    "timestamp": "2025-06-09T01:30:19.059412",
+    "searchable_text": "Name: Demo User | Headline: Software Engineer | AI Enthusiast | Tech Leader | About: Experienced software engineer with 5+ years in developing scalable applications. Passionate about AI, machine learning, and building innovative solutions that make a difference. | Skills: Python, JavaScript, React, Node.js, AWS, Docker, Kubernetes, Machine Learning, Data Analysis, Leadership | Experience: Senior Software Engineer at TechCorp Inc.; Software Engineer at StartupXYZ"
+  }
+}
